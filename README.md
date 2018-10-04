@@ -1,0 +1,1 @@
+#### Demostrating the recommended Android app achitecture
