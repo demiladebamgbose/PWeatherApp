@@ -1,7 +1,9 @@
-package net.androidbootcamp.pweatherapp;
+package net.androidbootcamp.pweatherapp.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import net.androidbootcamp.pweatherapp.R;
 
 public class MainActivity extends AppCompatActivity {
 
