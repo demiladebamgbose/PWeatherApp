@@ -8,18 +8,18 @@ import java.util.List;
 public class ObservationResponse {
     @SerializedName("data")
     @Expose
-    private List<Observation> observations;
+    private List<ObservationWebResponse> observationWebResponses;
 
     @SerializedName("count")
     @Expose
     private int count;
 
-    public List<Observation> getObservations() {
-        return observations;
+    public List<ObservationWebResponse> getObservationWebResponses() {
+        return observationWebResponses;
     }
 
-    public void setObservations(List<Observation> observations) {
-        this.observations = observations;
+    public void setObservationWebResponses(List<ObservationWebResponse> observationWebResponses) {
+        this.observationWebResponses = observationWebResponses;
     }
 
     public int getCount() {

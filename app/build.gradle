@@ -38,6 +38,9 @@ dependencies {
     // Converter factory
     implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
 
+    // play services
+    implementation 'com.google.android.gms:play-services-maps:16.0.0'
+
 
     //Gson
     implementation 'com.google.code.gson:gson:2.8.5'

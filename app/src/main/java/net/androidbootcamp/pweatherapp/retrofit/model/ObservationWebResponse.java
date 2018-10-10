@@ -4,7 +4,7 @@ package net.androidbootcamp.pweatherapp.retrofit.model;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class Observation {
+public class ObservationWebResponse {
 
     @SerializedName("wind_cdir")
     @Expose
