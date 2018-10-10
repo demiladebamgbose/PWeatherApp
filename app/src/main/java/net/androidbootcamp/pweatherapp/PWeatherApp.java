@@ -7,6 +7,7 @@ import net.androidbootcamp.pweatherapp.dagger.AppModule;
 import net.androidbootcamp.pweatherapp.dagger.DaggerAppComponent;
 
 public class PWeatherApp extends Application {
+    private final String beseUrl = "https://api.weatherbit.io/v2.0/";
 
     private AppComponent appComponent;
 
@@ -15,7 +16,7 @@ public class PWeatherApp extends Application {
         super.onCreate();
 
         appComponent = DaggerAppComponent.builder()
-                .appModule(new AppModule(this))
+                .appModule(new AppModule(this, beseUrl))
                 .build();
     }
 
